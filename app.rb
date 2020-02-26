@@ -21,5 +21,7 @@ class App < Sinatra::Base
    
    say
  end
+ 
+ get 
 
 end
