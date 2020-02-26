@@ -34,7 +34,8 @@ class App < Sinatra::Base
    
    case params[:operation]
    when 'add'
-     answer = ''
+     answer = (number1 + number2).to_s
+     
  end
 
 
