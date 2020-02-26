@@ -33,7 +33,11 @@ class App < Sinatra::Base
    answer = 'error'
    
    case params[:operation]
-   when
+   when 'add'
+     answer = ''
  end
+
+
+
 
 end
